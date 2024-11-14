@@ -5,13 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "MosaicGrid",
-    platforms: [
-        .iOS(.v16),
-        .macOS(.v13),
-        .tvOS(.v16),
-        .visionOS(.v2),
-        .watchOS(.v9)
-    ],
     products: [
         .library(
             name: "MosaicGrid",
